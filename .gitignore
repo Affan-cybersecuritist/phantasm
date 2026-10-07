@@ -1,0 +1,17 @@
+# Build output & compiled classes
+build/
+/com/
+*.class
+
+# Local dev / session files
+.claude/
+.vscode/
+Hello.java
+
+# Databases & secrets
+*.db
+.phantasm.key
+
+# Dependencies (download at build time)
+lib/*.jar
+!lib/.gitkeep
